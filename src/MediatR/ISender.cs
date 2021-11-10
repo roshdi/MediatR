@@ -6,7 +6,7 @@ namespace MediatR
     /// <summary>
     /// Send a request through the mediator pipeline to be handled by a single handler.
     /// </summary>
-    public interface ISender
+    public partial interface ISender
     {
         /// <summary>
         /// Asynchronously send a request to a single handler
